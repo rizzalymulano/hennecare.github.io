@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- HTML with Internal or Embedded CSS: About of the website. 
+     Note: I also use external css here for the navigation. However, 
+	 the main focus of these is the Internal or Embedded CSS.-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>About</title>
+	<link rel="stylesheet" href="nav_style.css">
+	<style>
+	*{
+			padding: 0;
+			margin: 0;
+	}
+	.wrapper{
+			background:#FBAE94;
+			max-width: 750px;
+			width: 100%;
+			border-radius: 15px;
+			padding: 25px;
+			box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+	}
+	body{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: url(images/a_bg.png) no-repeat;
+			background-size: cover;
+	        height: 100vh;
+			font-family: "Poppins", sans-serif;
+	}
+	h1{
+			text-align: center;
+			text-transform: uppercase;
+			margin-bottom: 20px;
+	}
+	.about-section{
+			display: flex;
+	}
+	p{
+			margin: 10px;
+			text-align: center;
+	}
+	</style>
+  </head>
+  <body>
+<!-- Nav Section -->
+    <div class="wrapper">
+    <nav class="navbar">
+	<img class="logo" src="images/logo.png">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a class="active" href="about.html">About</a></li>
+		<li><a href="product.html">Product</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+	</nav>
+<!----End of Nav---->
+ 
+<!-- About Section -->
+      <h1>About</h1>
+      <div class="about-section">
+        <p>
+          Henné Care is a cruelty-free and organically produced company. The owner uses the product before releasing it to guarantee that it is of high quality, and she continues to use it after it is released.
+		  <br><br>
+		  We believe that our product will assist people in gaining confidence. We also make certain that each product is well-packaged to provide a positive experience.
+		</p>
+      </div>
+    </div>
+<!----End of About---->
+  </body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!-- HTML with Inline and Embedded CSS: Product of the website.-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Products</title>
+	<link rel="stylesheet" href="nav_style.css">
+	<style>
+	*, *:before, *:after {
+	  padding: 1;
+	  margin: 0; 
+	}
+    .Center {
+      width:1500px;
+      height:1500px;
+	  margin-left: 450px;
+	  margin-right:20px
+    }
+	.column {
+	  width: 40%;
+	  margin-left: 20px;
+	  margin-right:20px;
+	  margin-bottom: 16px;
+	  padding: 0 8px;
+	}
+
+	@media screen and (max-width: 650px) {
+	  .column {
+		width: 100%;
+		display: block;
+	  }
+	}
+
+	.card {
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	}
+
+	.container {
+	  padding: 0 16px;
+	  background-color: white;
+	}
+
+	.container::after, .row::after {
+	  content: "";
+	  clear: both;
+	  display: table;
+	}
+
+	.title {
+	  color: grey;
+	}
+
+	.button {
+	  border: none;
+	  outline: 0;
+	  display: inline-block;
+	  padding: 8px;
+	  background-color: #D69B5E;
+	  text-align: center;
+	  cursor: pointer;
+	  width: 100%;
+	}
+
+	.button:hover {
+	  background-color: #555;
+	}
+	</style>
+  </head>
+  <body style="background-color:#F7D6B4;">
+<!-- Nav Section -->
+    <nav class="navbar">
+	<img class="logo" src="images/logo.png">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a class="active" href="product.html">Product</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+	</nav>
+<!----End of Nav---->
+ 
+<!-- Product Section -->
+
+<h1 style="color:#9D6224; text-align: center;">Available Products</h2>
+<p style="color:#9D6224; text-align: center;">You can buy it by clicking "Buy Now".</p>
+<br>
+<div class="Center">
+<!-- Lip Elixer -->
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/lipelixer.jpeg" alt="Lip Elixer" style="width:100%">
+      <div class="container">
+        <h2 style="color:#9D6224;">Lip Elixer</h2>
+        <p class="title">(Lightens dark lips)</p><br>
+        <p class="title">Available Shade:</p><br>
+		<p>Jane, Evie, Mal, Audrey</p><br>	
+        <p><button class="button"><a href="https://shopee.ph/HENN%C3%89-LIP-ELIXIR-(Lightens-dark-lips)-i.281489014.7065963345" style="text-decoration:none;color:white;">Buy Now</a></button></p>
+      </div>
+    </div>
+  </div>
+<!-- END Lip Elixer -->
+
+<!-- Scrubby Balm --> 
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/lipscrub.jpeg" alt="Lip Scrub" style="width:100%">
+      <div class="container">
+        <h2 style="color:#9D6224;">Scrubby Balm</h2>
+        <p class="title">(Scrub & Balm)</p><br>	
+        <p class="title">Available Shade:</p><br>	
+		<p>Jade, Leigh, Perrie</p><br>	
+        <p><button class="button"><a href="https://shopee.ph/HENN%C3%88-SCRUBBY-BALM-(SCRUB-BALM)-i.281489014.6292186824?sp_atk=2fb4b61a-a57a-4ca3-95a7-432ae72051b0" style="text-decoration:none;color:white;">Buy Now</a></button></p>
+      </div>
+    </div>
+  </div>
+<!-- END Scrubby Balm -->  
+ 
+<!-- Butter Balm -->  
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/butterbalm.jpeg" alt="Butter Balm" style="width:100%">
+      <div class="container">
+        <h2 style="color:#9D6224;">Butter Balm</h2>
+        <p class="title">(Lip Balm)</p><br>	
+        <p class="title">Available Shade:</p><br>	
+		<p>Jade, Leigh, Perrie</p><br>		
+        <p><button class="button"><a href="https://shopee.ph/HENN%C3%89-Butter-Balm-(Lip-Balm)-i.281489014.12347850243?sp_atk=616e3d80-09af-4ffd-92e5-b12aa34ee13b" style="text-decoration:none;color:white;">Buy Now</a></button></p>
+      </div>
+    </div>
+  </div>
+<!-- END Butter Balm -->   
+
+<!-- Bye Bags --> 
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/byebag.jpeg" alt="Bye Bag" style="width:100%">
+      <div class="container">
+        <h2 style="color:#9D6224;">Bye Bags</h2>
+        <p class="title">(Lightens dark circles and dark spots)</p><br>	
+        <p><button class="button"><a href="https://shopee.ph/HENN%C3%89-BYEBAGS-(Lightens-dark-circles-and-dark-spots)-i.281489014.14105536095?xptdk=c82a1c92-ce6d-44bb-8708-0aeb46f76258" style="text-decoration:none;color:white;">Buy Now</a></button></p>
+      </div>
+    </div>
+  </div>
+<!-- END Bye Bags -->
+  
+<!-- Spray Bye Bags -->
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/spraybyebag.jpeg" alt="Spray Bye Bag" style="width:100%">
+      <div class="container">
+        <h2 style="color:#9D6224;">Spray Bye Bags</h2>
+        <p class="title">(Lightens dark areas)</p><br>		
+        <p><button class="button"><a href="https://shopee.ph/HENN%C3%89-BYEBAGS-30ML-(Lightens-dark-areas)-i.281489014.17504269215?sp_atk=15486ccd-4085-4f3e-a3dd-4b0af46e0f2c" style="text-decoration:none;color:white;">Buy Now</a></button></p>
+      </div>
+    </div>
+  </div>
+<!-- END Spray Bye Bags -->
+ 
+<!--  SKINSHIELD -->
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/sunscreen.jpeg" alt="Sunscreen" style="width:100%">
+      <div class="container">
+        <h2 style="color:#9D6224;">SKINSHIELD</h2>
+        <p class="title">(Sunscreen with Collagen and Niacinamide)</p><br>		
+        <p><button class="button"><a href="https://shopee.ph/HENN%C3%89-BYEBAGS-30ML-(Lightens-dark-areas)-i.281489014.17504269215?sp_atk=15486ccd-4085-4f3e-a3dd-4b0af46e0f2c" style="text-decoration:none;color:white;">Buy Now</a></button></p>
+      </div>
+    </div>
+  </div>
+<!-- END SKINSHIELD -->
+</div>
+<!----End of Product---->
+</body>
+</html>
